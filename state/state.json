@@ -1,10 +1,10 @@
 {
-  "theme_pointer": 2,
+  "theme_pointer": 0,
   "theme_item_pointers": {
     "science": 1,
     "tag": 1,
-    "confessional": 0
+    "confessional": 1
   },
-  "last_post_id": "2026-10-07-tag-01-run2",
-  "posts_published": 2
+  "last_post_id": "2026-10-08-confessional-01-run3",
+  "posts_published": 3
 }
