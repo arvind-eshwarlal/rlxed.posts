@@ -17,12 +17,15 @@ import datetime
 sys.path.insert(0, os.path.dirname(__file__))
 from template_render import load_templates, render_slide, select_templates, SLOTS
 from render_followus import render_followus_slide, load_cta
+from make_reel import build_reel
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 QUEUE_PATH = os.path.join(ROOT, "content", "queue.json")
 STATE_PATH = os.path.join(ROOT, "state", "state.json")
 GENERATED_DIR = os.path.join(ROOT, "content", "generated")
 LOGO_PATH = os.path.join(ROOT, "assets", "rlxed-logo.png")
+SETTINGS_PATH = os.path.join(ROOT, "content", "settings.json")
+MUSIC_DIR = os.path.join(ROOT, "music")
 
 
 # slide-2 label per theme, so every "mid" slide is labeled, not just science
@@ -69,6 +72,14 @@ def main():
 
     # pick designs: 4 consecutive 15-degree variations of one shape, all verified to fit the text
     posts_so_far = state.get("posts_published", 0)
+    settings = load_json(SETTINGS_PATH) if os.path.exists(SETTINGS_PATH) else {}
+    fmt = settings.get("format", "carousel")
+    if fmt == "alternate":
+        formats = ["reel"] if posts_so_far % 2 == 1 else ["carousel"]
+    elif fmt == "both":
+        formats = ["carousel", "reel"]
+    else:
+        formats = [fmt]
     templates = load_templates()
     template_ids, fits, run_name = select_templates(item, templates, posts_so_far)
 
@@ -83,6 +94,19 @@ def main():
     render_followus_slide(os.path.join(post_dir, followus_name), LOGO_PATH, load_cta())
     slide_files.append(followus_name)
 
+    video_file, music_info = None, None
+    if "reel" in formats:
+        tracks = load_json(os.path.join(MUSIC_DIR, "music.json")) if os.path.exists(os.path.join(MUSIC_DIR, "music.json")) else []
+        if not tracks:
+            raise RuntimeError("Reel requested but music/music.json is missing or empty - upload the music folder")
+        music_info = tracks[state.get("reels_made", 0) % len(tracks)]
+        cta_text = " ".join(p["text"] for p in load_cta())
+        texts = [item["hook"], item["mid"], item["why"], item["closure"], cta_text]
+        video_file = "reel.mp4"
+        build_reel([os.path.join(post_dir, f) for f in slide_files], texts,
+                   os.path.join(MUSIC_DIR, music_info["file"]), os.path.join(post_dir, video_file))
+        state["reels_made"] = state.get("reels_made", 0) + 1
+
     full_caption = item["caption"] + "\n\n" + " ".join(item["hashtags"])
 
     meta = {
@@ -92,6 +116,9 @@ def main():
         "slide_files": slide_files,
         "templates": template_ids,
         "run": run_name,
+        "formats": formats,
+        "video_file": video_file,
+        "music": music_info,
         "caption": full_caption,
     }
     save_json(os.path.join(post_dir, "meta.json"), meta)

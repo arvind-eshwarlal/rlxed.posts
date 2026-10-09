@@ -1,0 +1,27 @@
+{
+ "_readme": "Designs listed here are never used. This replaces the old automatic 'text must be near the vertical middle' rule: it is now your call, design by design. Remove an id to bring a design back, add an id to retire one. (Design 4 is the plain black one with no shape.)",
+ "excluded_ids": [
+  "3",
+  "4",
+  "6",
+  "7",
+  "11",
+  "12",
+  "13",
+  "20",
+  "27",
+  "28",
+  "29",
+  "30",
+  "59",
+  "61",
+  "62",
+  "64",
+  "65",
+  "66",
+  "70",
+  "72",
+  "73",
+  "82"
+ ]
+}

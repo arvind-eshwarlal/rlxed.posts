@@ -186,7 +186,6 @@ def render_slide(template_id, text, out_path, label=None, templates=None, fit=No
 # Template selection
 # ---------------------------------------------------------------------------
 SLOTS = [("hook", False), ("mid", True), ("why", True), ("closure", False)]  # (field, has_label)
-MAX_CENTER_OFFSET = 160  # px: skip designs whose text sits further than this from the vertical middle
 
 
 def load_runs():
@@ -194,8 +193,22 @@ def load_runs():
         return json.load(f)["runs"]
 
 
+def load_excluded():
+    path = os.path.join(TEMPLATES_DIR, "excluded.json")
+    if not os.path.exists(path):
+        return set()
+    with open(path) as f:
+        return set(json.load(f).get("excluded_ids", []))
+
+
+_EXCLUDED = None
+
+
 def _usable(tid, T):
-    return tid in T and abs(T[tid]["center"][1] - H / 2) <= MAX_CENTER_OFFSET
+    global _EXCLUDED
+    if _EXCLUDED is None:
+        _EXCLUDED = load_excluded()
+    return tid in T and tid not in _EXCLUDED
 
 
 def select_templates(item, T, posts_published, runs=None):

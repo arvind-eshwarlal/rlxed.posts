@@ -1,0 +1,5 @@
+{
+  "_readme": "format: what gets posted. 'carousel' = swipeable images (no music possible), 'reel' = video with music, 'alternate' = Reel, carousel, Reel, carousel, Reel..., 'both' = carousel AND a Reel of the same content. video_upload: 'url' (Instagram fetches the video from this repo) or 'resumable' (the video is sent directly) - only switch to 'resumable' if the Reel fails to publish.",
+  "format": "alternate",
+  "video_upload": "url"
+}

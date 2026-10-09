@@ -15,6 +15,19 @@ runs, move designs between runs, or remove designs you don't want used.
 
 The last slide's text lives in `content/cta.json` - edit it and re-upload that one file.
 
+## Music and Reels
+Instagram's publishing API cannot attach music to an image carousel (audio is Reels-only), so
+music works by also posting a Reel: a vertical video of the same slides with a music clip under it.
+Choose what gets posted in `content/settings.json`:
+- "carousel" - swipeable images only (no music). This is the default.
+- "reel"      - video with music only.
+- "alternate" - carousel, Reel, carousel, Reel ...
+- "both"      - the carousel AND a Reel of the same content.
+Music clips live in `music/` (01.mp3 ... 14.mp3) and are used in order, one per Reel, then start over.
+To refresh the collection: `python scripts/prepare_music.py <folder_of_mp3s> music`.
+If a Reel ever fails to publish, set "video_upload" to "resumable" in settings.json and run again.
+Designs you never want used are listed in `templates/excluded.json`.
+
 ## Uploading to GitHub (browser uploads are capped at about 100 files per batch)
 1. Batch 1: everything EXCEPT the `templates/clean` folder (scripts, fonts, content, state, assets, README, requirements.txt, templates/templates.json, templates/families.json).
 2. Batch 2: the `templates/clean` folder (99 images) on its own.
