@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-09-science-01-run8",
+  "theme": "science",
+  "item_id": "science-01",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "32",
+    "33",
+    "34",
+    "35"
+  ],
+  "run": "hexagons",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "01.mp3",
+    "title": "24575281 bella ciao guitar ahmadmousavipour",
+    "source_file": "24575281-bella-ciao-guitar-ahmadmousavipour-11996.mp3"
+  },
+  "caption": "Your brain is running on the same tank as your legs. Overthink a play, and you're spending fuel your body needed. Train the mind like you train the body \u2014 it's not separate. \ud83e\udde0\n\n#AthleteMindset #SportsPsychology #MentalPerformance"
+}
