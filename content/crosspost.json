@@ -1,0 +1,5 @@
+{
+ "_readme": "Switch each platform on by changing false to true - but only after you have added its token secret on GitHub (THREADS_ACCESS_TOKEN / FB_PAGE_ACCESS_TOKEN). Facebook GROUPS cannot be posted to by any automation.",
+ "threads": false,
+ "facebook": false
+}

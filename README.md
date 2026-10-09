@@ -28,6 +28,14 @@ To refresh the collection: `python scripts/prepare_music.py <folder_of_mp3s> mus
 If a Reel ever fails to publish, set "video_upload" to "resumable" in settings.json and run again.
 Designs you never want used are listed in `templates/excluded.json`.
 
+## Cross-posting to Threads and the Facebook Page
+Right after Instagram, the same run can post the same content to Threads and to the Facebook Page.
+Switch each on in `content/crosspost.json` (false -> true) once its secret exists on GitHub:
+THREADS_ACCESS_TOKEN and FB_PAGE_ACCESS_TOKEN (and the workflow's Publish step passes them in).
+Carousel -> Threads carousel / Facebook multi-photo post. Reel -> Threads video / Facebook Reel.
+Facebook GROUPS cannot be posted to by any automation (Meta removed the Groups API in 2024).
+If a cross-post fails, Instagram is unaffected but the run turns red so you notice.
+
 ## Uploading to GitHub (browser uploads are capped at about 100 files per batch)
 1. Batch 1: everything EXCEPT the `templates/clean` folder (scripts, fonts, content, state, assets, README, requirements.txt, templates/templates.json, templates/families.json).
 2. Batch 2: the `templates/clean` folder (99 images) on its own.

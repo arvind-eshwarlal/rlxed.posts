@@ -178,6 +178,13 @@ def main():
 
     print(json.dumps({"published": published, "post_id": meta["post_id"]}))
 
+    # same content to Threads / Facebook Page (each switched on in content/crosspost.json)
+    from crosspost import crosspost_all
+    errors = crosspost_all(meta, post_dir, repo, branch)
+    if errors:
+        print("CROSSPOST PROBLEMS:", *errors, sep="\n  ")
+        sys.exit(1)  # Instagram already published; this just makes the run show red so you notice
+
 
 if __name__ == "__main__":
     main()
