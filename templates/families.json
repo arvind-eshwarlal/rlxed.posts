@@ -1,0 +1,164 @@
+{
+ "_readme": "Each run lists template ids in rotation order (consecutive ids = consecutive 15-degree variations of one shape). A carousel takes 4 consecutive ids from one run. Edit freely: reorder, move ids between runs, or delete a run. A run with fewer than 4 ids is only used if it has allow_repeat=true (all 4 slides then share that one design). Design 4 (plain black, no shape) is deliberately left out.",
+ "runs": [
+  {
+   "name": "hexagons",
+   "ids": [
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+   ]
+  },
+  {
+   "name": "triangles",
+   "ids": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22"
+   ]
+  },
+  {
+   "name": "circles",
+   "ids": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31"
+   ]
+  },
+  {
+   "name": "stars",
+   "ids": [
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58"
+   ]
+  },
+  {
+   "name": "speech_bubbles",
+   "ids": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+   ]
+  },
+  {
+   "name": "starbursts",
+   "ids": [
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65"
+   ]
+  },
+  {
+   "name": "polygons",
+   "ids": [
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98"
+   ]
+  },
+  {
+   "name": "squares",
+   "ids": [
+    "1",
+    "2",
+    "3",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+   ]
+  },
+  {
+   "name": "scalloped",
+   "ids": [
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73"
+   ]
+  },
+  {
+   "name": "flowers",
+   "ids": [
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88"
+   ]
+  },
+  {
+   "name": "spiky_stars",
+   "ids": [
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80"
+   ]
+  },
+  {
+   "name": "strip",
+   "ids": [
+    "99"
+   ],
+   "allow_repeat": true
+  }
+ ]
+}

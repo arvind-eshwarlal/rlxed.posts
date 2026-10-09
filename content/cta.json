@@ -1,0 +1,17 @@
+{
+    "_readme": "Text of the final follow-us slide. One entry per paragraph; set bold=true to emphasise the action line. Edit and re-upload this one file to change the CTA.",
+    "paragraphs": [
+     {
+      "text": "We're building the voice-first AI journal for athletic self-awareness.",
+      "bold": false
+     },
+     {
+      "text": "The rlxed beta is opening in small, invite-only cohorts.",
+      "bold": false
+     },
+     {
+      "text": "Follow us and Tap the link in our bio to apply.",
+      "bold": true
+     }
+    ]
+   }
