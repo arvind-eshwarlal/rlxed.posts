@@ -46,8 +46,8 @@ jobs:
 
       - name: Publish to Instagram
         env:
-          IG_USER_ID: ${{ secrets.38924023033908560 }}
-          IG_ACCESS_TOKEN: ${{ secrets.IGAAZAbiZA1aai9BZAGFvMFpNWDNsZAFBkWGxDQlF1ZAUlyWXpqYkRnS01CUXk3YzZAmMndtRThOZATM4ZAHJKOERkWmJxZA1kzQXVJNnBIOHpxWjJCUFJpaFlGZAzZANaG5EUVdpc2N2VkY0MkxqZAVhWLUp2Q3dKMHFfY3UzZAm10Q29vc09JQQZDZD }}
-          THREADS_ACCESS_TOKEN: ${{ secrets.THAAXcDbSjnQ9BYllFdDNYNHZAnd3dxSDA1MHk3T25JVUE5bWFGUFMyaFQxd2tONm0ydDlHWTJQbHJBUVFsWEpoYl9ITUsxN3gySVJMelZAyUGU5dW1SRUNwZA2FrdU5nS051YXdoMmNjSzJCVGc3c0xya2lsalRmcVJ3TmY3M2NPaVZAGM0JSSkhqRnBodXI4OFUZD }}
-          FB_PAGE_ACCESS_TOKEN: ${{ secrets.https://graph.facebook.com/v25.0/me?fields=id,name&access_token=EAAYdXt5wV00BSvWdRqvxjZCi9lrSCtRipbQ8RnrEx6Jb5ZA90B8EnZB7UAnUcfH9mQyNaWytD1gYjubCTBEP5kZBXvvZBxTSBGxpQmq9J4hLpuNogNiMcMFk5XS3d5sGYadBIqFZAfqd4zFAgciZApyPJTAL6MFUTzRBPK34lUMJD1mcHEiSldf73OUVZBkk3aXH8wZDZD }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
         run: python scripts/publish_carousel.py "${{ steps.generate.outputs.post_dir }}"
