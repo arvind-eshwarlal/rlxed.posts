@@ -1,0 +1,44 @@
+name: Cross-post an existing post
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_dir:
+        description: "Post folder, e.g. content/generated/2026-10-10-tag-01-run9"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Cross-post to Threads and Facebook
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          POST_DIR: ${{ inputs.post_dir }}
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          sys.path.insert(0, "scripts")
+          from crosspost import crosspost_all
+          d = os.environ["POST_DIR"]
+          meta = json.load(open(d + "/meta.json"))
+          errors = crosspost_all(meta, d, os.environ["GITHUB_REPOSITORY"], os.environ.get("GITHUB_REF_NAME", "main"))
+          if errors:
+              print("PROBLEMS:", *errors, sep="\n  ")
+              sys.exit(1)
+          PY
