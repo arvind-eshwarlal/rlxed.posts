@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-10-11-tag-02-run14",
+  "theme": "tag",
+  "item_id": "tag-02",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "run": "speech_bubbles",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "Not everyone knows how to respond when you play badly. The rare teammate doesn't offer empty comfort \u2014 they're already looking ahead to the work that actually fixes it. Tag the one who says 'let's get some reps tomorrow' instead of 'good game.'\n\n#TeammateAppreciation #TeamCulture #AthleteMindset"
+}
