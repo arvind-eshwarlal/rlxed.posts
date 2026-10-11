@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-11-science-02-run13",
+  "theme": "science",
+  "item_id": "science-02",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "52",
+    "53",
+    "54",
+    "55"
+  ],
+  "run": "stars",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "03.mp3",
+    "title": "aurec swing jazz",
+    "source_file": "aurec-swing-jazz-585971.mp3"
+  },
+  "caption": "Those butterflies before the whistle? That's not fear talking \u2014 that's your sympathetic nervous system doing its job, pulling blood away from digestion and sending it to the muscles that are about to carry you. Reframe the feeling and it stops being a warning sign and starts being a green light.\n\n#SportsPsychology #AthleteMindset #PreGameNerves"
+}
