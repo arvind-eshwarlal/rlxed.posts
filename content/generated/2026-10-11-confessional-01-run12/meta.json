@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-10-11-confessional-01-run12",
+  "theme": "confessional",
+  "item_id": "confessional-01",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "23",
+    "24",
+    "25",
+    "26"
+  ],
+  "run": "circles",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "Nobody prepares you for the day after the season ends. For months, your life had a structure \u2014 practice, games, recovery, repeat. Then one day, it just stops, and the silence isn't rest, it's a kind of grief nobody talks about. If you've felt this, you're not broken. You're just an athlete between seasons.\n\n#AthleteMindset #MentalHealthInSport #SportsConfessional"
+}
