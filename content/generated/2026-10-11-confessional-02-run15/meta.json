@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-11-confessional-02-run15",
+  "theme": "confessional",
+  "item_id": "confessional-02",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "89",
+    "90",
+    "91",
+    "92"
+  ],
+  "run": "polygons",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "04.mp3",
+    "title": "echoes of lumen stomp",
+    "source_file": "echoes_of_lumen-stomp-591192.mp3"
+  },
+  "caption": "There's a real difference between competing to win and competing just to avoid getting hurt \u2014 and once that shift happens quietly in your head, something about your game changes with it, even if no one else notices yet. If you've felt yourself playing scared instead of playing free, you're not imagining it.\n\n#AthleteMindset #MentalHealthInSport #SportsConfessional"
+}
