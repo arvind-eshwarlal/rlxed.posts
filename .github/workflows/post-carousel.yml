@@ -4,8 +4,8 @@ on:
   schedule:
     # 2:00 AM UTC
     - cron: "30 7 * * *"
-    # 2:00 PM UTC
-    - cron: "30 19 * * *"
+    # 2:30 PM UTC
+    - cron: "00 20 * * *"
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
 
 permissions:
