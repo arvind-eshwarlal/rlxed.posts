@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-10-12-science-03-run16",
+  "theme": "science",
+  "item_id": "science-03",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "89",
+    "90",
+    "91",
+    "92"
+  ],
+  "run": "polygons",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "You just drilled a new move for an hour. Here's the part most athletes skip: a 20-minute nap afterward helps your brain actually lock that pattern into muscle memory through NREM sleep. The practice builds it. The rest wires it in.\n\n#MotorMemory #RecoveryScience #AthleteMindset"
+}
