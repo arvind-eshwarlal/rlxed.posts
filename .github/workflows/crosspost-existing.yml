@@ -6,12 +6,19 @@ on:
       post_dir:
         description: "Post folder, e.g. content/generated/2026-10-10-tag-01-run9"
         required: true
+      platforms:
+        description: "Where to post it"
+        type: choice
+        options:
+          - all-three
+          - threads-and-facebook-only
+        default: all-three
 
 permissions:
   contents: read
 
 jobs:
-  crosspost:
+  repost:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
@@ -25,13 +32,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Cross-post to Threads and Facebook
+      - name: Repost
         env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           POST_DIR: ${{ inputs.post_dir }}
+          PLATFORMS: ${{ inputs.platforms }}
         run: |
-          python - <<'PY'
+          if [ ! -f "$POST_DIR/meta.json" ]; then
+            echo "Folder not found or has no meta.json: $POST_DIR"
+            exit 1
+          fi
+          if [ "$PLATFORMS" = "all-three" ]; then
+            python scripts/publish_carousel.py "$POST_DIR"
+          else
+            python - <<'PY'
           import json, os, sys
           sys.path.insert(0, "scripts")
           from crosspost import crosspost_all
@@ -42,3 +59,4 @@ jobs:
               print("PROBLEMS:", *errors, sep="\n  ")
               sys.exit(1)
           PY
+          fi
