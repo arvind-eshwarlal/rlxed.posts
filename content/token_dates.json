@@ -1,0 +1,20 @@
+{
+  "_readme": "When each login token runs out. The check warns (and turns the run red, which makes GitHub email you) when a token is within warn_days of expiring. IMPORTANT: every time you renew a token, update its date here. For Instagram and Threads set 'issued' to the day you refreshed it (a refresh gives a fresh 60 days). For Facebook set 'expires' to the new data-access date shown by Facebook's Access Token Debugger. The dates below are best guesses - please correct them to the real days.",
+  "warn_days": 10,
+  "tokens": {
+    "Instagram": {
+      "issued": "2026-10-06",
+      "lifetime_days": 60,
+      "renew": "Paste into your browser: https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=CURRENT_TOKEN  then save the NEW token in the GitHub secret IG_ACCESS_TOKEN."
+    },
+    "Threads": {
+      "issued": "2026-10-09",
+      "lifetime_days": 60,
+      "renew": "Paste into your browser: https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=CURRENT_TOKEN  then save the NEW token in the GitHub secret THREADS_ACCESS_TOKEN."
+    },
+    "Facebook Page": {
+      "expires": "2027-01-08",
+      "renew": "The Page token itself says it never expires, but Facebook shows a separate 'Data Access Expires' date. Redo the Facebook token steps (Graph API Explorer, extend, then ask for the Page by its ID) and save the new Page token in the GitHub secret FB_PAGE_ACCESS_TOKEN."
+    }
+  }
+}

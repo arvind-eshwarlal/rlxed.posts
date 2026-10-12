@@ -36,6 +36,13 @@ Carousel -> Threads carousel / Facebook multi-photo post. Reel -> Threads video 
 Facebook GROUPS cannot be posted to by any automation (Meta removed the Groups API in 2024).
 If a cross-post fails, Instagram is unaffected but the run turns red so you notice.
 
+## Token expiry warnings
+`content/token_dates.json` lists when each login token runs out. The last step of every run
+(`scripts/check_tokens.py`) turns the run red - so GitHub emails you - once a token is within 10 days
+of expiring. Scheduled runs only fail on the morning slot, to keep it to one email a day.
+Whenever you renew a token, update its date in that file or the warnings will continue.
+Renewal links are printed in the run log and stored in the same file.
+
 ## Uploading to GitHub (browser uploads are capped at about 100 files per batch)
 1. Batch 1: everything EXCEPT the `templates/clean` folder (scripts, fonts, content, state, assets, README, requirements.txt, templates/templates.json, templates/families.json).
 2. Batch 2: the `templates/clean` folder (99 images) on its own.
