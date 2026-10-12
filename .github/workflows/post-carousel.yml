@@ -2,9 +2,9 @@ name: Post rlxed Instagram Carousel
 
 on:
   schedule:
-    # 2:00 AM UTC
+    # 7:30 AM IST
     - cron: "30 7 * * *"
-    # 2:30 PM UTC
+    # 8:00 PM IST
     - cron: "00 20 * * *"
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
 
