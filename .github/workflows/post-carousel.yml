@@ -2,9 +2,9 @@ name: Post rlxed Instagram Carousel
 
 on:
   schedule:
-    # 7:30 AM IST
+    # 7:00 AM IST
     - cron: "30 7 * * *"
-    # 8:00 PM IST
+    # 7:00 PM IST
     - cron: "00 20 * * *"
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
 
@@ -51,3 +51,7 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
         run: python scripts/publish_carousel.py "${{ steps.generate.outputs.post_dir }}"
+
+      - name: Check token expiry dates
+        if: always()
+        run: python scripts/check_tokens.py
