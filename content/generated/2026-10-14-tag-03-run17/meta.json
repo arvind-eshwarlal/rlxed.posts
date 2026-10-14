@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-14-tag-03-run17",
+  "theme": "tag",
+  "item_id": "tag-03",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "1",
+    "2",
+    "46",
+    "47"
+  ],
+  "run": "squares",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "05.mp3",
+    "title": "echoes of lumen trailer music",
+    "source_file": "echoes_of_lumen-trailer-music-597581.mp3"
+  },
+  "caption": "Some teammates want the ball in the biggest moments \u2014 not for glory, but because they can handle what comes with it. When the crowd is deafening and the stakes are highest, they're the ones absorbing that pressure so the team doesn't crack. Tag your pressure absorber.\n\n#TeammateAppreciation #TeamCulture #SportsCommunity"
+}
