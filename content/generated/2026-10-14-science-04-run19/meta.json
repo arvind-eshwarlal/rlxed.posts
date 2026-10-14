@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-14-science-04-run19",
+  "theme": "science",
+  "item_id": "science-04",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "81",
+    "83",
+    "84",
+    "85"
+  ],
+  "run": "flowers",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "06.mp3",
+    "title": "emmraan enemies",
+    "source_file": "emmraan-enemies-270516.mp3"
+  },
+  "caption": "Ever wonder why you're wired at 1am after a game that ended hours ago? Cortisol, your body's stress hormone, stays elevated well past the final whistle. Your mind has moved on. Your bloodstream hasn't, yet. That's biology, not restlessness.\n\n#SportsScience #RecoveryMatters #AthleteMindset"
+}
