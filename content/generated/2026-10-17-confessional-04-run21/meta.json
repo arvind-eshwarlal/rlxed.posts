@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-17-confessional-04-run21",
+  "theme": "confessional",
+  "item_id": "confessional-04",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "99",
+    "99",
+    "99",
+    "99"
+  ],
+  "run": "strip",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "07.mp3",
+    "title": "ikoliks aj dynamic dynamic music",
+    "source_file": "ikoliks_aj-dynamic-dynamic-music-614565.mp3"
+  },
+  "caption": "Being the loudest energy in the locker room while quietly fighting your own mental slump is one of the most invisible kinds of exhausting in sports. Nobody claps for carrying both. If this is you right now, your effort doesn't go unnoticed here.\n\n#MentalHealthInSport #AthleteMindset #SportsConfessional"
+}
