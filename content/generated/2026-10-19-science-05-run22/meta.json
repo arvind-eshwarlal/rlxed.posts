@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-10-19-science-05-run22",
+  "theme": "science",
+  "item_id": "science-05",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "run": "hexagons",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "Ever choke on a move you've done a thousand times? That's 'reinvestment' \u2014 overthinking pulls control away from your trained motor cortex and hands it to your analytical prefrontal cortex, which is slower and clumsier at movement. The fix isn't thinking harder. It's trusting the rep.\n\n#SportsPsychology #MentalPerformance #TrustTheProcess"
+}
