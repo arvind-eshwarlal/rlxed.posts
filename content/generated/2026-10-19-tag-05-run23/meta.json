@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-19-tag-05-run23",
+  "theme": "tag",
+  "item_id": "tag-05",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "14",
+    "15",
+    "16",
+    "17"
+  ],
+  "run": "triangles",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "08.mp3",
+    "title": "lnplusmusic event event music",
+    "source_file": "lnplusmusic-event-event-music-611920.mp3"
+  },
+  "caption": "When the game is slipping and panic starts creeping in, someone in the huddle looks you dead in the eye and tells you to breathe. That steadiness is rarer than talent. Tag the teammate who anchors the room when everything else is shaking.\n\n#TeammateAppreciation #TeamCulture #AthleteMindset"
+}
