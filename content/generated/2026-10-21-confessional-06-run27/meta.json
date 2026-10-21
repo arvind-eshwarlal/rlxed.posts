@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-21-confessional-06-run27",
+  "theme": "confessional",
+  "item_id": "confessional-06",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "93",
+    "94",
+    "95",
+    "96"
+  ],
+  "run": "polygons",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "10.mp3",
+    "title": "muzaproduction russian folk kalinka",
+    "source_file": "muzaproduction-russian-folk-kalinka-108671.mp3"
+  },
+  "caption": "Your body reacted exactly right. Your brain was just half a second behind processing what it saw. That gap between instinct and execution is one of the most frustrating parts of competing \u2014 and one of the least talked about.\n\n#AthleteMindset #SportsConfessional #MentalPerformance"
+}
