@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-21-science-06-run25",
+  "theme": "science",
+  "item_id": "science-06",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "56",
+    "57",
+    "58",
+    "52"
+  ],
+  "run": "stars",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "09.mp3",
+    "title": "lnplusmusic product product launch",
+    "source_file": "lnplusmusic-product-product-launch-611921.mp3"
+  },
+  "caption": "Here's the part that surprises most athletes: a bad night's sleep doesn't really touch your strength. What it wrecks is your reaction time and decision-making \u2014 by as much as 30%. You won't feel weaker. You'll just be a half-second slower to read the play, and in competition, that's everything.\n\n#SleepScience #AthleteRecovery #MentalPerformance"
+}
