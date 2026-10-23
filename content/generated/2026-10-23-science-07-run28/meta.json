@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-10-23-science-07-run28",
+  "theme": "science",
+  "item_id": "science-07",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "93",
+    "94",
+    "95",
+    "96"
+  ],
+  "run": "polygons",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "You walk off the field feeling almost fine \u2014 then two days later your whole body aches. That's not delayed injury, that's adrenaline wearing off. During competition it masks pain; once your nervous system settles, the real physical toll finally registers. Build your recovery around day two, not just game day.\n\n#RecoveryScience #AthleteMindset #SportsScience"
+}
