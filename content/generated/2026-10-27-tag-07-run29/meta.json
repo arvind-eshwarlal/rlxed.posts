@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-27-tag-07-run29",
+  "theme": "tag",
+  "item_id": "tag-07",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "run": "squares",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "11.mp3",
+    "title": "prettyjohn1 football",
+    "source_file": "prettyjohn1-football-499976.mp3"
+  },
+  "caption": "You can always tell who's serious before the whistle even blows \u2014 they're the ones treating warm-ups like it's already the championship. Tag the teammate who sets the standard in the quiet moments nobody's watching.\n\n#TeamCulture #AthleteMindset #TeammateAppreciation"
+}
