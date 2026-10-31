@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-10-31-science-08-run31",
+  "theme": "science",
+  "item_id": "science-08",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "86",
+    "87",
+    "88",
+    "81"
+  ],
+  "run": "flowers",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "12.mp3",
+    "title": "sigmamusicart sport rock",
+    "source_file": "sigmamusicart-sport-rock-209773.mp3"
+  },
+  "caption": "This one changes how you think about rest days and injury layoffs: visualizing a movement in vivid detail fires nearly the same neural pathways as physically performing it. Elite athletes have used this for decades \u2014 not as a substitute for reps, but as a real supplement to them. Mental reps are real reps.\n\n#VisualizationTraining #SportsPsychology #MentalPerformance"
+}
