@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-11-02-confessional-08-run33",
+  "theme": "confessional",
+  "item_id": "confessional-08",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "99",
+    "99",
+    "99",
+    "99"
+  ],
+  "run": "strip",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "13.mp3",
+    "title": "sub clair dynamic",
+    "source_file": "sub_clair-dynamic-607580.mp3"
+  },
+  "caption": "Enjoying a rest day while a part of your brain insists you're falling behind is its own strange exhaustion. Rest isn't the enemy of progress, even when it feels that way in the moment. If you've felt guilty resting, you're far from alone.\n\n#AthleteRecovery #MentalHealthInSport #SportsConfessional"
+}
