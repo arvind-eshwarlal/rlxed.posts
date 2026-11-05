@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-11-05-science-09-run34",
+  "theme": "science",
+  "item_id": "science-09",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "32",
+    "33",
+    "34",
+    "35"
+  ],
+  "run": "hexagons",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "Your amygdala can't tell the difference between a genuine physical threat and a championship free throw. Both trigger the same racing heart, the same flood of adrenaline. Understanding that the panic is just misfiring ancient wiring \u2014 not a sign something's wrong with you \u2014 is often the first step to managing it.\n\n#SportsPsychology #MentalPerformance #AthleteMindset"
+}
