@@ -1,0 +1,29 @@
+{
+  "post_id": "2026-11-05-tag-09-run35",
+  "theme": "tag",
+  "item_id": "tag-09",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "18",
+    "19",
+    "21",
+    "22"
+  ],
+  "run": "triangles",
+  "formats": [
+    "reel"
+  ],
+  "video_file": "reel.mp4",
+  "music": {
+    "file": "14.mp3",
+    "title": "the mountain classical classical song",
+    "source_file": "the_mountain-classical-classical-song-576563.mp3"
+  },
+  "caption": "Their own workout is already finished. They stay anyway \u2014 rebounding your shots, feeding you reps, giving up time they'll never get back. Tag the teammate who invests in your growth after their own work is done.\n\n#TeammateAppreciation #TeamCulture #AthleteGrind"
+}
