@@ -1,0 +1,25 @@
+{
+  "post_id": "2026-11-07-confessional-09-run36",
+  "theme": "confessional",
+  "item_id": "confessional-09",
+  "slide_files": [
+    "1_hook.png",
+    "2_mid.png",
+    "3_why.png",
+    "4_closure.png",
+    "5_followus.png"
+  ],
+  "templates": [
+    "26",
+    "31",
+    "23",
+    "24"
+  ],
+  "run": "circles",
+  "formats": [
+    "carousel"
+  ],
+  "video_file": null,
+  "music": null,
+  "caption": "There's a particular sting in watching a coach praise a teammate for executing something you did just as well, a week earlier, with zero acknowledgment. Recognition isn't always fair. Your work still counted, whether or not anyone said so.\n\n#AthleteMindset #SportsConfessional #TeamCulture"
+}
