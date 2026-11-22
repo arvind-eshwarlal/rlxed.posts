@@ -1,0 +1,11 @@
+{
+  "_readme": "Settings for the 'Real Stories' carousels. series_label is the small blue label on every slide. cta_text is the automatic 'send this' slide (put the part you want in blue inside [square brackets]). brand_slide is the very last slide: 'light' = your white follow-us slide, 'dark' = the same words on the dark design, 'off' = none. Its words come from content/cta.json. Edit freely - these files are safe to change on GitHub.",
+  "series_label": "REAL STORIES",
+  "cta_text": "Know someone who keeps going after a setback? [Send them this story.]",
+  "brand_slide": "light",
+  "logo_text": ".rlxed",
+  "max_slides": 10,
+  "max_words_hook": 14,
+  "max_words_slide": 22,
+  "threads_text_limit": 500
+}

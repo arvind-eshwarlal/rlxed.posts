@@ -1,0 +1,113 @@
+{
+  "_readme": "Your Real Stories queue. Each story: id (short, no spaces), person, sport, status ('ready' or 'hold'), slides (first = hook; the closing 'send this' slide is added automatically), caption (without sources or hashtags), sources (they are added to the caption as 'Sources: ...'), hashtags. Put [square brackets] around words to show in blue. Only facts you have verified belong in the slides; the light 'setting' lines (like the rivals' condolences in Takacs) are fine as long as they do not change a fact. Step 1 with story id 'next' picks the first 'ready' story that has not been published yet.",
+  "stories": [
+    {
+      "id": "takacs-1939",
+      "person": "Károly Takács",
+      "sport": "shooting",
+      "status": "ready",
+      "slides": [
+        "1938: his shooting hand was shattered. 1939: [national champion.]",
+        "Károly Takács was an army sergeant on [Hungary's pistol shooting team.]",
+        "During an army exercise, a faulty grenade exploded in his [right hand.] His shooting hand.",
+        "After a month in hospital, he began teaching himself to shoot [left-handed.] In secret.",
+        "Spring 1939. Hungarian national championship. His rivals offered [condolences,] assuming he'd come to watch.",
+        "[“I didn't come to watch. I came to compete.”]",
+        "He won the title. [1948] Olympics: gold. [1952] Olympics: gold again. Both times, [left-handed.]"
+      ],
+      "caption": "A grenade shattered Károly Takács's shooting hand in 1938. He taught himself to shoot left-handed, won the Hungarian national title in 1939, and took Olympic gold in 1948 and 1952.",
+      "sources": [
+        "Olympics.com",
+        "Wikipedia",
+        "AP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#KarolyTakacs",
+        "#Shooting"
+      ]
+    },
+    {
+      "id": "barty-break",
+      "person": "Ashleigh Barty",
+      "sport": "tennis",
+      "status": "ready",
+      "slides": [
+        "She walked away from tennis at 18. Then she became [world number one.]",
+        "Ashleigh Barty won junior Wimbledon at 15. Many called her [the next big thing.]",
+        "After a first-round loss at the 2014 US Open, she stepped away. [Burnt out. Homesick.]",
+        "She played professional cricket instead, for the [Brisbane Heat.]",
+        "About 21 months later, she returned to tennis. [May 2016.]",
+        "[2019:] French Open champion. [2021:] Wimbledon champion. [2022:] Australian Open champion.",
+        "In March 2022, aged 25, she retired as [world number one.]"
+      ],
+      "caption": "Ashleigh Barty left tennis at 18 after a first-round loss at the 2014 US Open, played professional cricket, and returned in 2016. She went on to win three Grand Slam singles titles and retired in March 2022 as world No. 1.",
+      "sources": [
+        "Olympics.com",
+        "WTA",
+        "NBC Sports"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#AshBarty",
+        "#Tennis"
+      ]
+    },
+    {
+      "id": "paes-atlanta-1996",
+      "person": "Leander Paes",
+      "sport": "tennis",
+      "status": "ready",
+      "slides": [
+        "1996: India's [44-year wait] ended on a tennis court.",
+        "No Indian had won an individual Olympic medal since wrestler K.D. Jadhav's bronze in [1952.]",
+        "At the 1996 Atlanta Olympics, Leander Paes reached the [singles semi-final.]",
+        "He lost to Andre Agassi, the eventual champion. That meant a [bronze-medal match.]",
+        "He went in with a [severely injured right wrist.]",
+        "His opponent: Brazil's Fernando Meligeni. Paes lost the first set [3-6.]",
+        "Then he won the next two sets: [6-2, 6-4.] Bronze.",
+        "India's first individual Olympic medal in 44 years. India's [only medal] at those Games."
+      ],
+      "caption": "In 1996, Leander Paes won Olympic bronze in men's singles in Atlanta, beating Fernando Meligeni 3-6, 6-2, 6-4. It was India's first individual Olympic medal since 1952 and India's only medal at those Games.",
+      "sources": [
+        "Olympics.com",
+        "Wikipedia",
+        "Scroll",
+        "The Week"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#LeanderPaes",
+        "#IndianTennis"
+      ]
+    },
+    {
+      "id": "partyka-table-tennis",
+      "person": "Natalia Partyka",
+      "sport": "table tennis",
+      "status": "ready",
+      "slides": [
+        "She serves from the [crook of her elbow.] She has played four Olympics.",
+        "Natalia Partyka was born in Gdańsk, Poland, without a [right hand and forearm.]",
+        "She started playing table tennis at age [seven.]",
+        "To serve, she balances the ball in the crook of her right elbow, then tosses it.",
+        "At 15, she won Paralympic singles gold. She would win it four times: [2004, 2008, 2012, 2016.]",
+        "In 2008, she entered the Olympics against able-bodied players. [Some asked why she wanted to.]",
+        "[“It was painful, but it also gave me motivation.”] — Natalia Partyka",
+        "Four Olympics in all: [2008, 2012, 2016, 2020.]"
+      ],
+      "caption": "Natalia Partyka was born without a right hand and forearm. She has won four Paralympic singles golds and competed at four Olympic Games in table tennis, serving with the ball balanced in the crook of her elbow.",
+      "sources": [
+        "Paralympic.org",
+        "ETTU",
+        "Wikipedia",
+        "AFP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#NataliaPartyka",
+        "#TableTennis"
+      ]
+    }
+  ]
+}
