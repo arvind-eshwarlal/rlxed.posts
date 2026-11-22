@@ -1,0 +1,51 @@
+name: "Step 1 - Create story carousel (preview only, nothing is posted)"
+
+on:
+  workflow_dispatch:
+    inputs:
+      story_id:
+        description: "Story id from content/stories.json - or leave as 'next' for the next unpublished story"
+        required: true
+        default: "next"
+
+permissions:
+  contents: write   # lets this workflow save the draft images in the repo so you can look at them
+
+concurrency:
+  group: story-carousel
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow
+
+      - name: Create the draft
+        id: render
+        env:
+          STORY_ID: ${{ inputs.story_id }}
+        run: python scripts/render_story.py "$STORY_ID"
+
+      - name: Save the draft in the repo (so you can see it)
+        env:
+          POST_ID: ${{ steps.render.outputs.post_id }}
+        run: |
+          git config user.name "rlxed-bot"
+          git config user.email "rlxed-bot@users.noreply.github.com"
+          git add -A content/drafts
+          git commit -m "Draft story carousel: $POST_ID"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Show the preview on this page
+        run: cat content/drafts/SUMMARY.md >> "$GITHUB_STEP_SUMMARY"
