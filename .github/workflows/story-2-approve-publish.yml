@@ -1,0 +1,97 @@
+name: "Step 2 - Approve and publish to Instagram, Facebook and Threads"
+
+on:
+  workflow_dispatch:
+    inputs:
+      story_id:
+        description: "Type the story id shown in the Step 1 preview. Typing it is your approval."
+        required: true
+      dry_run:
+        description: "Tick to rehearse: checks everything but posts NOTHING and keeps the draft"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: story-carousel
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo (latest, so the Step 1 draft is included)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pillow
+
+      - name: Check the draft is the one you approved
+        env:
+          STORY_ID: ${{ inputs.story_id }}
+        run: python scripts/story_tools.py check "$STORY_ID"
+
+      - name: Rehearsal only (nothing is posted)
+        if: ${{ inputs.dry_run }}
+        run: |
+          DRAFT=$(ls -d content/drafts/*/ | head -n 1)
+          python scripts/story_tools.py publish "${DRAFT%/}" --dry-run
+          echo "## Rehearsal finished - nothing was posted and the draft is still saved." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Move the approved draft into place
+        id: promote
+        if: ${{ !inputs.dry_run }}
+        env:
+          STORY_ID: ${{ inputs.story_id }}
+        run: python scripts/story_tools.py promote "$STORY_ID"
+
+      - name: Save the approved images (Instagram fetches them from GitHub)
+        if: ${{ !inputs.dry_run }}
+        env:
+          POST_ID: ${{ steps.promote.outputs.post_id }}
+        run: |
+          git config user.name "rlxed-bot"
+          git config user.email "rlxed-bot@users.noreply.github.com"
+          git add -A content
+          git commit -m "Approved story carousel: $POST_ID"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Wait for GitHub to serve the images
+        if: ${{ !inputs.dry_run }}
+        run: sleep 20
+
+      - name: Publish to Instagram, then Threads and Facebook
+        id: publish
+        if: ${{ !inputs.dry_run }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          POST_DIR: ${{ steps.promote.outputs.post_dir }}
+        run: python scripts/story_tools.py publish "$POST_DIR"
+
+      - name: Record that this story was published
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git config user.name "rlxed-bot"
+          git config user.email "rlxed-bot@users.noreply.github.com"
+          git add -A state
+          git diff --cached --quiet && echo "nothing to record" && exit 0
+          git commit -m "Record published story: ${{ inputs.story_id }}"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Check token expiry dates
+        if: ${{ always() && !inputs.dry_run }}
+        run: python scripts/check_tokens.py
