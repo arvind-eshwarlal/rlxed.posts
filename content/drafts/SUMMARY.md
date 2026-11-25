@@ -2,19 +2,19 @@
 
 **Story id:** `takacs-1939`  |  **Slides:** 9  |  **Closing brand slide:** light  |  **Nothing has been posted yet.**
 
-![preview](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/preview.png)
+![preview](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/preview.png)
 
 <details><summary>Open the slides one by one</summary>
 
-[Slide 1](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_1.jpg)  
-[Slide 2](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_2.jpg)  
-[Slide 3](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_3.jpg)  
-[Slide 4](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_4.jpg)  
-[Slide 5](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_5.jpg)  
-[Slide 6](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_6.jpg)  
-[Slide 7](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_7.jpg)  
-[Slide 8](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_8.jpg)  
-[Slide 9](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run2/slide_9.jpg)  
+[Slide 1](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_1.jpg)  
+[Slide 2](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_2.jpg)  
+[Slide 3](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_3.jpg)  
+[Slide 4](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_4.jpg)  
+[Slide 5](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_5.jpg)  
+[Slide 6](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_6.jpg)  
+[Slide 7](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_7.jpg)  
+[Slide 8](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_8.jpg)  
+[Slide 9](https://raw.githubusercontent.com/arvind-eshwarlal/rlxed.posts/main/content/drafts/2026-11-25-takacs-1939-run3/slide_9.jpg)  
 
 </details>
 
