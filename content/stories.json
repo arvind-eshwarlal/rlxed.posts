@@ -2,32 +2,6 @@
   "_readme": "Your Real Stories queue. Each story: id (short, no spaces), person, sport, status ('ready' or 'hold'), slides (first = hook; the closing 'send this' slide is added automatically), caption (without sources or hashtags), sources (they are added to the caption as 'Sources: ...'), hashtags. Put [square brackets] around words to show in blue. Only facts you have verified belong in the slides; the light 'setting' lines (like the rivals' condolences in Takacs) are fine as long as they do not change a fact. Step 1 with story id 'next' picks the first 'ready' story that has not been published yet.",
   "stories": [
     {
-      "id": "takacs-1939",
-      "person": "Károly Takács",
-      "sport": "shooting",
-      "status": "ready",
-      "slides": [
-        "1938: his shooting hand was shattered. 1939: [national champion.]",
-        "Károly Takács was an army sergeant on [Hungary's pistol shooting team.]",
-        "During an army exercise, a faulty grenade exploded in his [right hand.] His shooting hand.",
-        "After a month in hospital, he began teaching himself to shoot [left-handed.] In secret.",
-        "Spring 1939. Hungarian national championship. His rivals offered [condolences,] assuming he'd come to watch.",
-        "[“I didn't come to watch. I came to compete.”]",
-        "He won the title. [1948] Olympics: gold. [1952] Olympics: gold again. Both times, [left-handed.]"
-      ],
-      "caption": "A grenade shattered Károly Takács's shooting hand in 1938. He taught himself to shoot left-handed, won the Hungarian national title in 1939, and took Olympic gold in 1948 and 1952.",
-      "sources": [
-        "Olympics.com",
-        "Wikipedia",
-        "AP"
-      ],
-      "hashtags": [
-        "#RealStories",
-        "#KarolyTakacs",
-        "#Shooting"
-      ]
-    },
-    {
       "id": "barty-break",
       "person": "Ashleigh Barty",
       "sport": "tennis",
@@ -51,6 +25,32 @@
         "#RealStories",
         "#AshBarty",
         "#Tennis"
+      ]
+    },
+    {
+      "id": "takacs-1939",
+      "person": "Károly Takács",
+      "sport": "shooting",
+      "status": "ready",
+      "slides": [
+        "1938: his shooting hand was shattered. 1939: [national champion.]",
+        "Károly Takács was an army sergeant on [Hungary's pistol shooting team.]",
+        "During an army exercise, a faulty grenade exploded in his [right hand.] His shooting hand.",
+        "After a month in hospital, he began teaching himself to shoot [left-handed.] In secret.",
+        "Spring 1939. Hungarian national championship. His rivals offered [condolences,] assuming he'd come to watch.",
+        "[“I didn't come to watch. I came to compete.”]",
+        "He won the title. [1948] Olympics: gold. [1952] Olympics: gold again. Both times, [left-handed.]"
+      ],
+      "caption": "A grenade shattered Károly Takács's shooting hand in 1938. He taught himself to shoot left-handed, won the Hungarian national title in 1939, and took Olympic gold in 1948 and 1952.",
+      "sources": [
+        "Olympics.com",
+        "Wikipedia",
+        "AP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#KarolyTakacs",
+        "#Shooting"
       ]
     },
     {
@@ -107,6 +107,571 @@
         "#RealStories",
         "#NataliaPartyka",
         "#TableTennis"
+      ]
+    },
+    {
+      "id": "rudolph-1960",
+      "person": "Wilma Rudolph",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "Polio left her in a leg brace. At 20, she won [three Olympic golds.]",
+        "Wilma Rudolph was born prematurely, the [20th of 22 children.]",
+        "As a young child she caught polio, which weakened her leg. She wore a [brace for years.]",
+        "At about 12, the brace came off. Four years later, she was an [Olympian.]",
+        "At 16, she won a relay bronze medal at the [1956 Melbourne Olympics.]",
+        "At Rome 1960, she won gold in the [100 m, 200 m and 4x100 m relay.]",
+        "She was the first American woman to win [three track and field golds] at one Games."
+      ],
+      "caption": "Wilma Rudolph wore a leg brace as a child after polio. At 16 she won relay bronze at the 1956 Olympics, and in 1960 she became the first American woman to win three track and field golds at one Games.",
+      "sources": [
+        "Britannica",
+        "Biography.com",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#WilmaRudolph",
+        "#Athletics"
+      ]
+    },
+    {
+      "id": "hamilton-2003",
+      "person": "Bethany Hamilton",
+      "sport": "surfing",
+      "status": "ready",
+      "slides": [
+        "At 13, a shark took her arm. [26 days later,] she was surfing.",
+        "Bethany Hamilton was a young competitive surfer in Hawaii.",
+        "On 31 October 2003, a [14-foot tiger shark] bit off her left arm near the shoulder.",
+        "She lost about [60% of her blood.]",
+        "Within a month, she was back on a board, relearning how to paddle and balance with [one arm.]",
+        "Two years later, in 2005, she won a [national title.]",
+        "She turned professional in 2007."
+      ],
+      "caption": "Bethany Hamilton lost her left arm to a 14-foot tiger shark on 31 October 2003, aged 13. Twenty-six days later she was back on a surfboard. In 2005 she won a national title and in 2007 she turned professional.",
+      "sources": [
+        "Biography.com",
+        "bethanyhamilton.com",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#BethanyHamilton",
+        "#Surfing"
+      ]
+    },
+    {
+      "id": "moussambani-2000",
+      "person": "Eric Moussambani",
+      "sport": "swimming",
+      "status": "ready",
+      "slides": [
+        "Eight months before the Olympics, Eric Moussambani had [barely started swimming.]",
+        "He came from Equatorial Guinea and entered the Sydney 2000 Olympics on a [wildcard.]",
+        "He had trained in a small hotel pool. He had never seen a [50-metre pool.]",
+        "In his 100 m freestyle heat, both rivals were disqualified for false starts. He [swam alone.]",
+        "He finished in [1:52.72,] the slowest 100 m freestyle time in Olympic history.",
+        "The crowd cheered him all the way to the wall.",
+        "The gold medallist, Pieter van den Hoogenband, swam it in 48.30. Moussambani took [more than twice as long.]"
+      ],
+      "caption": "Eric Moussambani took up swimming about eight months before the 2000 Sydney Olympics and trained in a small hotel pool. With both rivals disqualified, he swam his 100 m heat alone in 1:52.72, the slowest time in Olympic history.",
+      "sources": [
+        "Wikipedia",
+        "Swimming World",
+        "AFP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#EricMoussambani",
+        "#Swimming"
+      ]
+    },
+    {
+      "id": "bikila-rome-1960",
+      "person": "Abebe Bikila",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "He won the Olympic marathon [barefoot,] then won it again in shoes.",
+        "Abebe Bikila, from Ethiopia, ran the marathon at the 1960 Rome Olympics.",
+        "The new shoes he was given gave him [blisters.]",
+        "So he ran barefoot, on the stone streets of Rome.",
+        "He won in [2:15:16,] a world best. He was the first Black African Olympic champion.",
+        "He said he wanted the world to know Ethiopia wins with [“determination and heroism.”]",
+        "In Tokyo in 1964, he won again, wearing shoes, in a faster time. The [first man to win two Olympic marathons.]"
+      ],
+      "caption": "Abebe Bikila won the 1960 Olympic marathon in Rome barefoot, in 2:15:16, after new shoes gave him blisters. He became the first Black African Olympic champion, and won again in Tokyo in 1964.",
+      "sources": [
+        "World Athletics",
+        "Britannica",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#AbebeBikila",
+        "#Marathon"
+      ]
+    },
+    {
+      "id": "comaneci-1976",
+      "person": "Nadia Comăneci",
+      "sport": "gymnastics",
+      "status": "ready",
+      "slides": [
+        "At 14, she scored a perfect 10. The scoreboard showed [1.00.]",
+        "Nadia Comăneci, from Romania, competed at the 1976 Montreal Olympics.",
+        "A perfect 10 had never been scored in Olympic gymnastics. The scoreboard had not been set up to show one.",
+        "On the uneven bars, she performed a routine the judges scored a [perfect 10.]",
+        "The board could only show three digits. It flashed [1.00.]",
+        "The crowd realised what it meant: the [first perfect 10] in Olympic gymnastics.",
+        "She scored six more 10s at those Games and won [three golds.]"
+      ],
+      "caption": "At the 1976 Montreal Olympics, 14-year-old Nadia Comăneci scored the first perfect 10 in Olympic gymnastics. The scoreboard, which could not show a 10.00, displayed 1.00. She scored seven perfect 10s and won three golds.",
+      "sources": [
+        "Wikipedia",
+        "Olympics.com",
+        "Britannica"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#NadiaComaneci",
+        "#Gymnastics"
+      ]
+    },
+    {
+      "id": "switzer-boston-1967",
+      "person": "Kathrine Switzer",
+      "sport": "running",
+      "status": "ready",
+      "slides": [
+        "In 1967, a race official tried to grab her number. She [kept running.]",
+        "Kathrine Switzer registered for the Boston Marathon using her usual signature: [K.V. Switzer.]",
+        "She became the first woman to run Boston as an [officially registered entrant.]",
+        "A few miles in, race manager Jock Semple ran after her and tried to grab her [bib.]",
+        "Her running partners blocked him. She kept going.",
+        "She finished in about [4 hours 20 minutes.]",
+        "In 1972, Boston held its [first official women's race.]"
+      ],
+      "caption": "In 1967 Kathrine Switzer entered the Boston Marathon as K.V. Switzer, becoming the first woman to run it as an officially registered entrant. A race manager tried to grab her bib, but she finished in about 4:20. Boston held its first official women's race in 1972.",
+      "sources": [
+        "Wikipedia",
+        "Taylor & Francis"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#KathrineSwitzer",
+        "#Marathon"
+      ]
+    },
+    {
+      "id": "yego-2015",
+      "person": "Julius Yego",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "He taught himself the javelin on YouTube. Then he became [world champion.]",
+        "Julius Yego grew up in Kenya, where there were few javelin coaches.",
+        "As a boy, he practised with a [sharpened stick.]",
+        "Later, he used a cybercafe to watch videos of top throwers on [YouTube.]",
+        "He copied their footwork, grip and release. People called him [“Mr YouTube.”]",
+        "In 2015, he won the world title in Beijing with a throw of [92.72 m,] an African record.",
+        "He was the first Kenyan to win a world title in a field event. In 2016, he won [Olympic silver.]"
+      ],
+      "caption": "Julius Yego taught himself the javelin from YouTube videos in a Kenyan cybercafe. In 2015 he won the world title with an African record of 92.72 m, and in 2016 he won Olympic silver.",
+      "sources": [
+        "Wikipedia",
+        "Olympics.com",
+        "AP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#JuliusYego",
+        "#Javelin"
+      ]
+    },
+    {
+      "id": "robles-2011",
+      "person": "Anthony Robles",
+      "sport": "wrestling",
+      "status": "ready",
+      "slides": [
+        "He was born without a right leg. He won a [national wrestling title.]",
+        "Anthony Robles started wrestling in high school.",
+        "In his first high school season, he went [5-8.]",
+        "He built upper-body strength and a low stance that made him hard to take down.",
+        "In his last two high school seasons, he went [96-0.]",
+        "At Arizona State, he won the 2011 NCAA 125 lb title, beating the [defending champion.]",
+        "He finished that season [36-0.]"
+      ],
+      "caption": "Anthony Robles was born without a right leg. After a 5-8 first high school season, he went 96-0 in his last two years, then won the 2011 NCAA 125 lb wrestling title for Arizona State.",
+      "sources": [
+        "Arizona State University",
+        "Cronkite News",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#AnthonyRobles",
+        "#Wrestling"
+      ]
+    },
+    {
+      "id": "abbott-1993",
+      "person": "Jim Abbott",
+      "sport": "baseball",
+      "status": "ready",
+      "slides": [
+        "Born without a right hand, he threw a [no-hitter] in the major leagues.",
+        "Jim Abbott pitched with his left hand. He rested his glove on the end of his [right arm.]",
+        "After each pitch, he slipped the glove onto his left hand, ready to [field.]",
+        "He reached the major leagues in 1989 without playing a single [minor league game.]",
+        "On 4 September 1993, pitching for the New York Yankees, he faced [Cleveland.]",
+        "Nobody got a hit. Final score: [4-0.]",
+        "A no-hitter is one of baseball's rarest feats."
+      ],
+      "caption": "Jim Abbott was born without a right hand and reached the major leagues in 1989 without playing in the minors. On 4 September 1993, he pitched a no-hitter for the New York Yankees against Cleveland, winning 4-0.",
+      "sources": [
+        "SABR",
+        "Wikipedia",
+        "MLB.com"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#JimAbbott",
+        "#Baseball"
+      ]
+    },
+    {
+      "id": "bogues-nba",
+      "person": "Muggsy Bogues",
+      "sport": "basketball",
+      "status": "ready",
+      "slides": [
+        "At 5 ft 3 in, he played [14 seasons] in the NBA.",
+        "Muggsy Bogues is the [shortest player] in NBA history.",
+        "He used his size: quick hands, fast feet and a sharp eye for the pass.",
+        "From 1987 to 2001, he played as a point guard.",
+        "He even blocked shots: [39] in his career.",
+        "One came against 7-foot Patrick Ewing."
+      ],
+      "caption": "Muggsy Bogues, at 5 ft 3 in the shortest player in NBA history, played 14 seasons between 1987 and 2001. He recorded 39 career blocks, including one against 7-foot Patrick Ewing.",
+      "sources": [
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#MuggsyBogues",
+        "#Basketball"
+      ]
+    },
+    {
+      "id": "hassan-tokyo-2021",
+      "person": "Sifan Hassan",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "She fell in an Olympic race and won it. Hours later, she [won gold.]",
+        "At the Tokyo Games, held in 2021, Sifan Hassan entered three events: [1500 m, 5000 m and 10,000 m.]",
+        "In her 1500 m heat, a runner ahead fell at the start of the last lap. Hassan [tripped over her.]",
+        "She got up, near the back of the pack.",
+        "In about 300 metres, she passed almost everyone and [won the heat.]",
+        "That same day, she won the [5000 m final.]",
+        "In all: gold in the 5000 m and 10,000 m, bronze in the 1500 m, after [six races in nine days.]"
+      ],
+      "caption": "At the Tokyo Olympics (held in 2021), Sifan Hassan fell in her 1500 m heat, got up and won it, then won the 5000 m final later that day. She finished the Games with golds in the 5000 m and 10,000 m and bronze in the 1500 m.",
+      "sources": [
+        "World Athletics",
+        "SI",
+        "NBC Olympics"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#SifanHassan",
+        "#Athletics"
+      ]
+    },
+    {
+      "id": "douglas-tokyo-1990",
+      "person": "Buster Douglas",
+      "sport": "boxing",
+      "status": "ready",
+      "slides": [
+        "He was a 42-1 underdog. He knocked out the [undefeated heavyweight champion.]",
+        "In February 1990 in Tokyo, Buster Douglas fought Mike Tyson, who was [unbeaten.]",
+        "Just [23 days] earlier, Douglas's mother had died.",
+        "He had promised her he would win.",
+        "In round 8, Tyson knocked him down. Douglas [got up.]",
+        "In round 10, Douglas knocked out Tyson, who had [never lost before.]",
+        "It is often called one of the biggest upsets in sports history."
+      ],
+      "caption": "In Tokyo on 11 February 1990, Buster Douglas, a 42-1 underdog, knocked out unbeaten heavyweight champion Mike Tyson in round 10. His mother had died 23 days earlier.",
+      "sources": [
+        "ESPN",
+        "Wikipedia",
+        "Boxing Insider"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#BusterDouglas",
+        "#Boxing"
+      ]
+    },
+    {
+      "id": "gardner-karelin-2000",
+      "person": "Rulon Gardner",
+      "sport": "wrestling",
+      "status": "ready",
+      "slides": [
+        "A Wyoming dairy farmer beat the man [nobody could beat.]",
+        "Aleksandr Karelin of Russia was a three-time Olympic champion, [unbeaten for 13 years.]",
+        "Rulon Gardner was a dairy farmer from Wyoming, and a huge [underdog.]",
+        "They met in the final of the 130 kg Greco-Roman wrestling event at the [2000 Sydney Olympics.]",
+        "Gardner refused to be thrown.",
+        "He scored the match's only point after Karelin's grip broke.",
+        "With seconds left, Karelin gave up the fight. Gardner won [1-0.]"
+      ],
+      "caption": "At the 2000 Sydney Olympics, Wyoming dairy farmer Rulon Gardner beat Aleksandr Karelin 1-0 in the 130 kg Greco-Roman final. Karelin, a three-time Olympic champion, had been unbeaten for 13 years.",
+      "sources": [
+        "Olympics.com",
+        "ESPN",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#RulonGardner",
+        "#Wrestling"
+      ]
+    },
+    {
+      "id": "young-ultramarathon-1983",
+      "person": "Cliff Young",
+      "sport": "ultrarunning",
+      "status": "ready",
+      "slides": [
+        "A 61-year-old farmer in gumboots won an [875 km race.]",
+        "In 1983, Cliff Young turned up at the Sydney to Melbourne ultramarathon wearing [overalls and gumboots.]",
+        "The other runners were young, sponsored professionals. Many thought he had no chance.",
+        "He started with a slow shuffle. The pros ran about 18 hours a day and slept for six.",
+        "Cliff kept shuffling, sleeping far less than the others.",
+        "He finished in [5 days, 15 hours and 4 minutes,] almost two days faster than the previous record for the route.",
+        "He had not known there was a prize. He shared most of the $10,000 with other finishers."
+      ],
+      "caption": "In 1983, 61-year-old farmer Cliff Young won the 875 km Westfield Sydney to Melbourne Ultramarathon in 5 days 15 hours 4 minutes, almost two days faster than the previous record for the route, wearing overalls and gumboots.",
+      "sources": [
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#CliffYoung",
+        "#Ultramarathon"
+      ]
+    },
+    {
+      "id": "bannister-1954",
+      "person": "Roger Bannister",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "For years, many thought no one could run a mile in [under four minutes.]",
+        "On 6 May 1954 at Oxford, Roger Bannister ran [3 minutes 59.4 seconds.]",
+        "He was the first person to break four minutes for the mile.",
+        "Just 46 days later, Australia's John Landy ran [3:57.9.]",
+        "Within a few years, dozens of runners had broken four minutes.",
+        "Once someone had done it, others followed quickly."
+      ],
+      "caption": "On 6 May 1954 Roger Bannister ran the first sub-four-minute mile at Oxford: 3:59.4. John Landy broke four minutes 46 days later, and within a few years, dozens of runners had done the same.",
+      "sources": [
+        "Smithsonian",
+        "History.com",
+        "NPR",
+        "AP"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#RogerBannister",
+        "#Athletics"
+      ]
+    },
+    {
+      "id": "dempsey-1970",
+      "person": "Tom Dempsey",
+      "sport": "american football",
+      "status": "ready",
+      "slides": [
+        "Born without toes on his kicking foot, he kicked a [record 63-yard field goal.]",
+        "Tom Dempsey was born without toes on his right foot and without fingers on his right hand.",
+        "He wore a specially made [flat-front shoe] to kick.",
+        "On 8 November 1970, his New Orleans Saints trailed Detroit 17-16 with seconds left.",
+        "Time was nearly out, and the ball was [63 yards] from the goalposts.",
+        "His kick went through. [Saints 19, Lions 17.]",
+        "It was the longest field goal in NFL history. Nobody beat it for [43 years.]"
+      ],
+      "caption": "On 8 November 1970, Tom Dempsey, born without toes on his right foot and without fingers on his right hand, kicked a 63-yard field goal to beat Detroit 19-17, an NFL record that stood for 43 years.",
+      "sources": [
+        "AP",
+        "Wikipedia",
+        "SI"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#TomDempsey",
+        "#NFL"
+      ]
+    },
+    {
+      "id": "phelps-beijing-2008",
+      "person": "Michael Phelps",
+      "sport": "swimming",
+      "status": "ready",
+      "slides": [
+        "His goggles filled with water. He still won gold and a [world record.]",
+        "At the 2008 Beijing Olympics, Michael Phelps was chasing a record [eight golds.]",
+        "During the 200 m butterfly final, his goggles filled with water.",
+        "For the rest of the race, he could barely see.",
+        "So he did what he had trained to do: he [counted his strokes.]",
+        "He touched the wall in [1:52.03,] a new world record.",
+        "It was the fourth of his eight golds at those Games."
+      ],
+      "caption": "At the 2008 Beijing Olympics, Michael Phelps' goggles filled with water during the 200 m butterfly final. He counted his strokes, won gold and set a world record of 1:52.03, the fourth of his eight golds at those Games.",
+      "sources": [
+        "Wikipedia",
+        "China Daily",
+        "Swimming World"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#MichaelPhelps",
+        "#Swimming"
+      ]
+    },
+    {
+      "id": "team-hoyt",
+      "person": "Dick and Rick Hoyt",
+      "sport": "endurance",
+      "status": "ready",
+      "slides": [
+        "A father pushed his son through [more than 1,000 races.]",
+        "Rick Hoyt was born in 1962 with cerebral palsy. His father Dick was [not a runner.]",
+        "In 1977, Rick, then 15, asked Dick to push him in a [5-mile charity run.]",
+        "They finished next to last.",
+        "Afterwards, Rick told his father that when he was running, he felt like he was not [handicapped.]",
+        "Dick kept going. Together they completed [72 marathons and six Ironman triathlons.]",
+        "In an Ironman, Dick towed Rick in a boat, pulled him on a bike seat, and pushed his chair."
+      ],
+      "caption": "In 1977, 15-year-old Rick Hoyt asked his father Dick to push him in a 5-mile charity run. They went on to complete over 1,000 events together, including 72 marathons and six Ironman triathlons.",
+      "sources": [
+        "Wikipedia",
+        "Team Hoyt"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#TeamHoyt",
+        "#Endurance"
+      ]
+    },
+    {
+      "id": "behan-london-2012",
+      "person": "Kieran Behan",
+      "sport": "gymnastics",
+      "status": "ready",
+      "slides": [
+        "Twice he was told he might never walk again. He became an [Olympic gymnast.]",
+        "At 10, a tumour was found in Kieran Behan's leg.",
+        "Surgery damaged nerves in his leg, and he was told he might not walk again.",
+        "He spent time in a wheelchair, then slowly returned to the gym.",
+        "About 15 months later, a fall in training caused a [brain injury] that hurt his balance.",
+        "He was back in a wheelchair, and told again he might not walk. He [worked his way back.]",
+        "In 2012, he qualified for the London Olympics for Ireland, and for [Rio in 2016.]"
+      ],
+      "caption": "Kieran Behan had a tumour in his leg at 10, then a brain injury from a training accident a little over a year later, and was twice told he might never walk again. He qualified for the 2012 London Olympics for Ireland and competed again in Rio in 2016.",
+      "sources": [
+        "RTE",
+        "Olympics.ie",
+        "Irish Times"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#KieranBehan",
+        "#Gymnastics"
+      ]
+    },
+    {
+      "id": "cunningham-mile-1934",
+      "person": "Glenn Cunningham",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "Doctors wanted to amputate both his legs. He became the [world's fastest miler.]",
+        "At age 8, a schoolhouse fire in Kansas severely burned Glenn Cunningham's legs.",
+        "The fire killed his older brother, Floyd.",
+        "Doctors recommended amputating both legs. His parents [refused.]",
+        "He slowly learned to walk, then to run.",
+        "In 1934, he set a world record for the mile: [4:06.7.]",
+        "He ran in two Olympics in the 1500 m: [fourth in 1932,] silver in 1936."
+      ],
+      "caption": "At age 8, Glenn Cunningham's legs were badly burned in a Kansas schoolhouse fire that killed his brother. Doctors recommended amputation; his parents refused. In 1934 he set the world record for the mile, and won Olympic silver in 1936.",
+      "sources": [
+        "Kansas Memory",
+        "University of Kansas",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#GlennCunningham",
+        "#Athletics"
+      ]
+    },
+    {
+      "id": "redmond-1992",
+      "person": "Derek Redmond",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "His Olympic race ended in a torn hamstring. His father helped him [finish.]",
+        "Derek Redmond of Britain was a favourite to win a medal in the 400 m at Barcelona 1992.",
+        "In the semi-final, about 250 metres from the finish, his [hamstring tore.]",
+        "He fell. Then he stood up and started hobbling around the track.",
+        "His father, Jim, came out of the stands, past security, to reach him.",
+        "His father told him they would finish together. About [65,000 people] stood and cheered.",
+        "They crossed the line together. Officially, Redmond is listed as [“Did Not Finish.”]"
+      ],
+      "caption": "At the 1992 Barcelona Olympics, British sprinter Derek Redmond tore a hamstring in the 400 m semi-final. His father, Jim, came onto the track and helped him complete the race to a standing ovation from about 65,000 people.",
+      "sources": [
+        "Olympedia",
+        "Olympics.com",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#DerekRedmond",
+        "#Athletics"
+      ]
+    },
+    {
+      "id": "akhwari-1968",
+      "person": "John Stephen Akhwari",
+      "sport": "athletics",
+      "status": "ready",
+      "slides": [
+        "He finished the Olympic marathon [more than an hour] after the winner.",
+        "John Stephen Akhwari, from Tanzania, ran the marathon at the 1968 Mexico City Olympics.",
+        "Around 19 kilometres in, he fell in a tangle of runners and injured his [knee and shoulder.]",
+        "He got up and kept going. Many runners had already finished.",
+        "He entered the stadium after dark, with only a few thousand spectators left.",
+        "He finished last, in [3:25:27,] and the crowd cheered.",
+        "Later, he said his country had not sent him to Mexico City to start the race, but to [finish it.]"
+      ],
+      "caption": "At the 1968 Mexico City Olympics, Tanzania's John Stephen Akhwari fell during the marathon and injured his knee and shoulder. He finished last, in 3:25:27, more than an hour after the winner. A line often attributed to him says his country sent him to finish the race.",
+      "sources": [
+        "Olympedia",
+        "Olympics.com",
+        "Wikipedia"
+      ],
+      "hashtags": [
+        "#RealStories",
+        "#JohnStephenAkhwari",
+        "#Marathon"
       ]
     }
   ]
